@@ -1,4 +1,4 @@
-# Sotto — Your Life, In Your Own Words
+# Sotto — A Private Voice Memory App
 
 > *Sotto Voce: to speak quietly, under your breath.*
 
@@ -10,16 +10,25 @@
   <a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
     <img src="https://img.shields.io/badge/Google_Play-Available-4CAF50?style=flat&logo=google-play&logoColor=white" />
   </a>
+  <a href="https://github.com/rudradave1/sotto-app">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white" />
+  </a>
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?style=flat&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" />
+</p>
+
+<p align="center">
+  <a href="https://open-launch.com/projects/sotto" target="_blank" rel="noopener">
+    <img src="https://open-launch.com/api/badge/21e8245e-ceeb-45fc-bb66-be81d6127bc5/featured-dark.svg" alt="Featured on Open-Launch" width="200" height="50" />
+  </a>
 </p>
 
 ---
 
 Sotto is a private, voice-first memory app for people who think out loud.
 
-Instead of typing journal entries, you simply speak. Sotto captures your words, transcribes them privately, structures your thoughts with AI, and builds a personal archive of your life over time.
+Instead of typing notes or journal entries, you simply speak. Sotto captures your words, transcribes them privately, structures them with AI, and helps you build a searchable archive of memories, ideas, experiences, and moments worth keeping.
 
 No prompts. No streaks. No pressure to write. Just speak and move on.
 
@@ -35,11 +44,15 @@ No prompts. No streaks. No pressure to write. Just speak and move on.
 
 ## Why Sotto Exists
 
-Most journaling apps fail because writing is work.
+Most people don't forget because they have bad memories.
 
-People have memories, ideas, frustrations, wins, and moments worth preserving — but rarely have the energy to open a text editor and write a structured entry.
+They forget because life moves fast.
 
-Sotto removes that friction entirely.
+Ideas during walks. Recommendations from friends. Lessons learned. Small moments that matter.
+
+The problem isn't that these things aren't important. It's that capturing them usually requires stopping what you're doing and typing everything out.
+
+Sotto removes that friction.
 
 Press record. Speak naturally. Done.
 
@@ -47,52 +60,57 @@ Press record. Speak naturally. Done.
 
 ## Features
 
-- 🎙 **Voice-first** — no typing, ever
-- 🔒 **Encrypted local storage** — SQLCipher AES-256
-- 🤖 **AI reflections** — insight, mood, and tags from your words
-- 🔍 **Full-text search** — find any memory instantly
-- 📊 **Patterns** — weekly mood trends and memory activity
-- ⭐ **Starred entries** — bookmark moments that matter
-- 🌐 **Multilingual** — English and Hindi. Gujarati coming soon.
-- 📴 **Offline mode** — 100% on-device transcription via Vosk
-- 🔄 **Background processing** — entries process even when app is closed
+* 🎙 **Voice-first capture** — preserve memories by speaking naturally
+* 🔒 **Encrypted local storage** — SQLCipher AES-256 protection
+* 🤖 **AI-powered organization** — automatic titles, tags, mood, category, and reflection
+* 🔍 **Full-text search** — instantly find past memories
+* 📊 **Patterns & insights** — discover mood trends and recurring themes
+* ⭐ **Starred memories** — save important moments for later
+* 🌐 **Multilingual support** — English and Hindi
+* 📴 **Offline mode** — fully local transcription with Vosk
+* 🎯 **Accurate mode** — Groq Whisper transcription with Zero Data Retention
+* 🔄 **Background processing** — memories continue processing even when the app is closed
 
 ---
 
 ## Privacy Promise
 
-- No ads
-- No tracking
-- No behavioral analytics
-- No selling your data
-- SQLCipher encrypted local database
-- Groq Zero Data Retention (Accurate mode)
-- Full offline option available (Offline mode)
-- You control your memories. Always.
+Your memories belong to you.
+
+* No ads
+* No tracking
+* No behavioral analytics
+* No selling your data
+* SQLCipher encrypted local database
+* Groq Zero Data Retention in Accurate mode
+* Fully offline transcription available
+* Local-first architecture
+
+You control your memories. Always.
 
 ---
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Language | Kotlin Multiplatform |
-| Android UI | Jetpack Compose |
-| Navigation | Voyager |
-| Database | SQLDelight + SQLCipher |
-| Networking | Ktor |
-| Dependency Injection | Koin |
-| Background Processing | WorkManager |
-| Cloud Transcription | Groq Whisper (whisper-large-v3) |
-| AI Structuring | Groq Llama (llama-3.3-70b-versatile) |
-| On-device Transcription | Vosk |
-| API Proxy | Cloudflare Workers |
+| Layer                   | Technology                           |
+| ----------------------- | ------------------------------------ |
+| Language                | Kotlin Multiplatform                 |
+| Android UI              | Jetpack Compose                      |
+| Navigation              | Voyager                              |
+| Database                | SQLDelight + SQLCipher               |
+| Networking              | Ktor                                 |
+| Dependency Injection    | Koin                                 |
+| Background Processing   | WorkManager                          |
+| Cloud Transcription     | Groq Whisper (whisper-large-v3)      |
+| AI Structuring          | Groq Llama (llama-3.3-70b-versatile) |
+| On-device Transcription | Vosk                                 |
+| API Proxy               | Cloudflare Workers                   |
 
 ---
 
 ## Architecture
 
-```
+```text
 Record Audio
       ↓
 Store Local Audio
@@ -105,55 +123,61 @@ AI Structuring Pipeline (Llama)
       ↓
 Encrypted Database Storage (SQLCipher)
       ↓
-Journal Timeline UI
+Memory Timeline UI
 ```
 
-Offline-first. Privacy-first. Clean Architecture (Presentation → Domain → Data).
+Offline-first. Privacy-first. Clean Architecture.
+
+```
+Presentation → Domain → Data
+```
 
 ---
 
 ## Roadmap
 
-- [ ] On This Day — resurface memories from past years
-- [ ] Semantic memory search
-- [ ] Life chapter clustering
-- [ ] Gujarati language support
-- [ ] iOS client
+* [ ] On This Day memory resurfacing
+* [ ] Semantic memory search
+* [ ] Life chapter clustering
+* [ ] Gujarati language support
+* [ ] Cloud backup & sync
+* [ ] iOS client
 
 ---
 
 ## Thanks & Credits
 
-Sotto wouldn't be possible without these incredible tools and teams:
+Sotto wouldn't be possible without these incredible projects and teams.
 
-**[Groq](https://groq.com)** — blazing fast Whisper transcription and Llama inference with Zero Data Retention. The privacy-respecting AI backbone of Sotto.
+### Groq
 
-**[Vosk](https://alphacephei.com/vosk)** — open source on-device speech recognition that makes true offline mode possible.
+Blazing-fast Whisper transcription and Llama inference with Zero Data Retention.
 
-**[SQLCipher](https://www.zetetic.net/sqlcipher)** — transparent AES-256 encryption for SQLite. Your memories are safe.
+https://groq.com
 
-**[Jetpack Compose](https://developer.android.com/compose)** — modern Android UI that made building Sotto a joy.
+### Vosk
 
-**[Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)** — shared business logic across Android and iOS.
+Open source speech recognition that enables fully offline transcription.
 
----
+https://alphacephei.com/vosk
 
-## Support the Project
+### SQLCipher
 
-Sotto is free, ad-free, and built by one person in their spare time.
+Transparent AES-256 encryption for SQLite databases.
 
-If it brought you value, a coffee goes a long way. ☕
+https://www.zetetic.net/sqlcipher
 
-<a href="https://www.buymeacoffee.com/YOUR_USERNAME">
-  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black" />
-</a>
+### Jetpack Compose
 
----
+Modern Android UI toolkit.
 
-## Legal
+https://developer.android.com/compose
 
-- [Privacy Policy](https://YOUR-USERNAME.github.io/sotto-legal/privacy-policy)
-- [Terms of Service](https://YOUR-USERNAME.github.io/sotto-legal/terms-of-service)
+### Kotlin Multiplatform
+
+Shared business logic across platforms.
+
+https://kotlinlang.org/docs/multiplatform.html
 
 ---
 
@@ -161,7 +185,9 @@ If it brought you value, a coffee goes a long way. ☕
 
 Built with ❤️ by **The Solitary Dev**
 
-[your-dev-email@gmail.com]
+📧 [sottoapp.help@gmail.com](mailto:sottoapp.help@gmail.com)
+
+GitHub: https://github.com/rudradave1/sotto-app
 
 ---
 
