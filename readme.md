@@ -6,25 +6,34 @@
   <img src="assets/logo.png" alt="Sotto Logo" width="120" />
 </p>
 
+<h3 align="center">A private voice-first memory app.</h3>
+
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
-    <img src="https://img.shields.io/badge/Google_Play-Available-4CAF50?style=flat&logo=google-play&logoColor=white" />
+    <img src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-34A853?style=for-the-badge&logo=google-play&logoColor=white" />
   </a>
-<a href="https://www.producthunt.com/products/sotto-5?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-sotto-64b8bedd-b163-4f0f-908d-8b2a0fb441d5" target="_blank" rel="noopener noreferrer"><img alt="Sotto - Never forget a memory again. Just speak. | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1174120&amp;theme=dark&amp;t=1782430078433"></a>
   <a href="https://github.com/rudradave1/sotto-app">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
   </a>
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?style=flat&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" />
-  <a href="https://www.shipit.buzz/products/sotto?ref=badge" target="_blank" rel="noopener noreferrer"><img src="https://www.shipit.buzz/api/products/sotto/badge?theme=dark" alt="Featured on Shipit" /></a>
+  <img src="https://img.shields.io/badge/Android-Native-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <a href="https://open-launch.com/projects/sotto" target="_blank" rel="noopener">
-    <img src="https://open-launch.com/api/badge/21e8245e-ceeb-45fc-bb66-be81d6127bc5/featured-dark.svg" alt="Featured on Open-Launch" width="200" height="50" />
+  <a href="https://www.producthunt.com/products/sotto-5">
+    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1174120&theme=dark" height="54" alt="Product Hunt" />
+  </a>
+  &nbsp;
+  <a href="https://open-launch.com/projects/sotto">
+    <img src="https://open-launch.com/api/badge/21e8245e-ceeb-45fc-bb66-be81d6127bc5/featured-dark.svg" height="54" alt="Open Launch" />
+  </a>
+  &nbsp;
+  <a href="https://www.shipit.buzz/products/sotto?ref=badge">
+    <img src="https://www.shipit.buzz/api/products/sotto/badge?theme=dark" height="54" alt="Shipit" />
   </a>
 </p>
+
 
 ---
 
