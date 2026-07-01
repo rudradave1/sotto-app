@@ -2,11 +2,15 @@
 
 > *Sotto Voce: to speak quietly, under your breath.*
 
-![Sotto Logo](assets/logo.png)
+<div align="center">
+<img src="assets/logo.png" width="80" alt="Sotto Logo" />
+</div>
 
 ### Capture ideas, conversations, and moments by speaking.
 
 Private. Encrypted. Searchable. Offline first.
+
+<div align="center">
 
 [![Get it on Google Play](https://img.shields.io/badge/Get%20it%20on-Google%20Play-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.sotto.memories)
 ![Android Native](https://img.shields.io/badge/Android-Native-3DDC84?style=for-the-badge&logo=android&logoColor=white)
@@ -16,6 +20,8 @@ Private. Encrypted. Searchable. Offline first.
 [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1174120&theme=dark)](https://www.producthunt.com/products/sotto-5)
 [![Open Launch](https://open-launch.com/api/badge/21e8245e-ceeb-45fc-bb66-be81d6127bc5/featured-dark.svg)](https://open-launch.com/projects/sotto)
 [![Shipit](https://www.shipit.buzz/api/products/sotto/badge?theme=dark)](https://www.shipit.buzz/products/sotto?ref=badge)
+
+</div>
 
 ---
 
@@ -29,17 +35,27 @@ No ads. No tracking. No login. Just your memories.
 
 ## Screenshots
 
-![Record screen](assets/screenshots/Record.png)
-![Memories screen](assets/screenshots/Memories.png)
-
-![Patterns screen](assets/screenshots/Patterns.png)
-![Privacy settings](assets/screenshots/Privacy.png)
+<table>
+  <tr>
+    <td align="center"><img src="assets/screenshots/Record.png" width="160" /></td>
+    <td align="center"><img src="assets/screenshots/Memories.png" width="160" /></td>
+    <td align="center"><img src="assets/screenshots/Patterns.png" width="160" /></td>
+    <td align="center"><img src="assets/screenshots/Privacy.png" width="160" /></td>
+  </tr>
+</table>
 
 ---
 
 ## Download
 
-[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.sotto.memories)
+<div align="center">
+
+<a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60">
+</a>
+
+
+</div>
 
 ---
 
@@ -186,7 +202,7 @@ These documents apply to the Sotto Android application available on Google Play.
 
 ## Contact
 
-Built by **The Solitary Dev**
+Built by Rudra Dave for [**The Solitary Dev**](https://play.google.com/store/apps/details?id=com.sotto.memories)
 
 📧 [sottoapp.help@gmail.com](mailto:sottoapp.help@gmail.com)
 
@@ -195,7 +211,7 @@ https://play.google.com/store/apps/details?id=com.sotto.memories
 
 ---
 
-*"Speak now. Remember later."*
-
 ```
+"Never forget anything"
+
 ```
