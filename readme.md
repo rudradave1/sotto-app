@@ -1,4 +1,5 @@
-# Sotto — A Private Voice Memory App
+````md
+# Sotto | Private Voice Memory App for Android
 
 > *Sotto Voce: to speak quietly, under your breath.*
 
@@ -6,18 +7,19 @@
   <img src="assets/logo.png" alt="Sotto Logo" width="120" />
 </p>
 
-<h3 align="center">A private voice-first memory app.</h3>
+<h3 align="center">Capture ideas, conversations, and moments by speaking.</h3>
+
+<p align="center">
+Private. Encrypted. Searchable. Offline first.
+</p>
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
     <img src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-34A853?style=for-the-badge&logo=google-play&logoColor=white" />
   </a>
-  <a href="https://github.com/rudradave1/sotto-app">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
-  </a>
   <img src="https://img.shields.io/badge/Android-Native-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Privacy-First-111111?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -34,21 +36,35 @@
   </a>
 </p>
 
+---
+
+Sotto is a private voice memory app for Android that helps you preserve ideas, conversations, lessons, book recommendations, and everyday moments before they are forgotten.
+
+Simply press record and speak naturally. Sotto transcribes your voice, organizes your memories with AI, and stores everything securely on your device.
+
+No ads. No tracking. No login. Just your memories.
 
 ---
 
-Sotto is a private, voice-first memory app for people who think out loud.
+## Screenshots
 
-Instead of typing notes or journal entries, you simply speak. Sotto captures your words, transcribes them privately, structures them with AI, and helps you build a searchable archive of memories, ideas, experiences, and moments worth keeping.
+<p align="center">
+  <img src="assets/screenshots/Record.png" width="220" alt="Record screen" />
+  <img src="assets/screenshots/Memories.png" width="220" alt="Memories screen" />
+</p>
 
-No prompts. No streaks. No pressure to write. Just speak and move on.
+<p align="center">
+  <img src="assets/screenshots/Patterns.png" width="220" alt="Patterns screen" />
+  <img src="assets/screenshots/Privacy.png" width="220" alt="Privacy settings" />
+</p>
+ 
 
 ---
 
 ## Download
 
 <a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
-  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200" />
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="220" />
 </a>
 
 ---
@@ -71,51 +87,54 @@ Press record. Speak naturally. Done.
 
 ## Features
 
-* 🎙 **Voice-first capture** — preserve memories by speaking naturally
-* 🔒 **Encrypted local storage** — SQLCipher AES-256 protection
-* 🤖 **AI-powered organization** — automatic titles, tags, mood, category, and reflection
-* 🔍 **Full-text search** — instantly find past memories
-* 📊 **Patterns & insights** — discover mood trends and recurring themes
-* ⭐ **Starred memories** — save important moments for later
-* 🌐 **Multilingual support** — English and Hindi
-* 📴 **Offline mode** — fully local transcription with Vosk
-* 🎯 **Accurate mode** — Groq Whisper transcription with Zero Data Retention
-* 🔄 **Background processing** — memories continue processing even when the app is closed
+- 🎙 Voice first memory capture
+- 🤖 AI generated titles, tags, mood, categories, and reflections
+- 🔍 Full text search across every memory
+- 🔒 SQLCipher encrypted local storage
+- 📴 Fully offline transcription with Vosk
+- 🎯 Accurate transcription with Groq Whisper Zero Data Retention
+- 📊 Mood trends and memory insights
+- ⭐ Star important memories
+- 🌐 English and Hindi support
+- 🔄 Background processing with WorkManager
+- 🚫 No ads
+- 🚫 No tracking
+- 🚫 No login required
 
 ---
 
-## Privacy Promise
+## Privacy
 
 Your memories belong to you.
 
-* No ads
-* No tracking
-* No behavioral analytics
-* No selling your data
-* SQLCipher encrypted local database
-* Groq Zero Data Retention in Accurate mode
-* Fully offline transcription available
-* Local-first architecture
+- Everything is stored locally.
+- SQLCipher encrypts your database.
+- Offline transcription is available.
+- Accurate mode uses Groq Zero Data Retention.
+- No advertising.
+- No analytics.
+- No tracking.
+- No selling your data.
 
-You control your memories. Always.
+You stay in control of your memories.
 
 ---
 
 ## Tech Stack
 
-| Layer                   | Technology                           |
-| ----------------------- | ------------------------------------ |
-| Language                | Kotlin Multiplatform                 |
-| Android UI              | Jetpack Compose                      |
-| Navigation              | Voyager                              |
-| Database                | SQLDelight + SQLCipher               |
-| Networking              | Ktor                                 |
-| Dependency Injection    | Koin                                 |
-| Background Processing   | WorkManager                          |
-| Cloud Transcription     | Groq Whisper (whisper-large-v3)      |
-| AI Structuring          | Groq Llama (llama-3.3-70b-versatile) |
-| On-device Transcription | Vosk                                 |
-| API Proxy               | Cloudflare Workers                   |
+| Layer | Technology |
+| ------ | ---------- |
+| Language | Kotlin Multiplatform |
+| UI | Jetpack Compose |
+| Navigation | Voyager |
+| Database | SQLDelight + SQLCipher |
+| Networking | Ktor |
+| Dependency Injection | Koin |
+| Background Jobs | WorkManager |
+| Cloud Transcription | Groq Whisper |
+| AI Memory Organization | Groq Llama |
+| Offline Speech Recognition | Vosk |
+| API Proxy | Cloudflare Workers |
 
 ---
 
@@ -124,82 +143,85 @@ You control your memories. Always.
 ```text
 Record Audio
       ↓
-Store Local Audio
+Temporary Audio
       ↓
 Background WorkManager Job
       ↓
-Whisper Transcription (Groq or Vosk)
+Whisper Transcription
       ↓
-AI Structuring Pipeline (Llama)
+AI Memory Organization
       ↓
-Encrypted Database Storage (SQLCipher)
+Encrypted Memory Storage
       ↓
-Memory Timeline UI
-```
+Temporary Audio Deleted
+      ↓
+Memory Timeline
+````
 
-Offline-first. Privacy-first. Clean Architecture.
+Offline first.
+
+Privacy first.
+
+Clean Architecture.
 
 ```
-Presentation → Domain → Data
+Presentation
+      ↓
+Domain
+      ↓
+Data
 ```
 
 ---
 
 ## Roadmap
 
-* [ ] On This Day memory resurfacing
+* [ ] On This Day
 * [ ] Semantic memory search
 * [ ] Life chapter clustering
-* [ ] Gujarati language support
-* [ ] Cloud backup & sync
-* [ ] iOS client
+* [ ] Gujarati support
+* [ ] iOS app
+* [ ] Optional encrypted cloud backup
 
 ---
 
-## Thanks & Credits
+## Built With
 
-Sotto wouldn't be possible without these incredible projects and teams.
+Sotto is powered by some incredible technologies.
 
-### Groq
+* Groq
+* Vosk
+* SQLCipher
+* Kotlin Multiplatform
+* Jetpack Compose
+* SQLDelight
+* Ktor
+* Koin
+* WorkManager
 
-Blazing-fast Whisper transcription and Llama inference with Zero Data Retention.
+---
 
-https://groq.com
+## Legal
 
-### Vosk
+* Privacy Policy
+* Terms of Service
 
-Open source speech recognition that enables fully offline transcription.
-
-https://alphacephei.com/vosk
-
-### SQLCipher
-
-Transparent AES-256 encryption for SQLite databases.
-
-https://www.zetetic.net/sqlcipher
-
-### Jetpack Compose
-
-Modern Android UI toolkit.
-
-https://developer.android.com/compose
-
-### Kotlin Multiplatform
-
-Shared business logic across platforms.
-
-https://kotlinlang.org/docs/multiplatform.html
+These documents apply to the Sotto Android application available on Google Play.
 
 ---
 
 ## Contact
 
-Built with ❤️ by **The Solitary Dev**
+Built by **The Solitary Dev**
 
 📧 [sottoapp.help@gmail.com](mailto:sottoapp.help@gmail.com)
 
-GitHub: https://github.com/rudradave1/sotto-app
+Google Play:
+https://play.google.com/store/apps/details?id=com.sotto.memories
 
 ---
 
-*Sotto — speak freely. Your memories stay yours.*
+*"Speak now. Remember later."*
+
+```
+```

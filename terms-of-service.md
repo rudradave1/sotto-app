@@ -1,92 +1,110 @@
-Terms of Service — Sotto
+# Terms of Service - Sotto
 
-Last updated: June 2026
-Developer: The Solitary Dev
+**Last updated:** July 1, 2026
 
-By downloading or using Sotto, you agree to these terms.
+**Developer:** The Solitary Dev
 
-──────────────────────────
-1. THE SERVICE
-──────────────────────────
-Sotto is a private voice journaling app. It records your 
-voice, transcribes it, and stores journal entries locally 
-on your device in an encrypted database.
+By downloading or using Sotto, you agree to these Terms of Service.
 
-──────────────────────────
-2. YOUR CONTENT
-──────────────────────────
-Everything you record belongs to you. We do not claim 
-ownership of your journal entries, recordings, or any 
-content you create in the app.
+---
 
-Your data is stored locally on your device. We do not 
-have access to your journal entries.
+## 1. The Service
 
-──────────────────────────
-3. ACCURATE MODE
-──────────────────────────
-If you select Accurate transcription mode, your audio 
-is sent to Groq's API for processing. Groq operates 
-under a Zero Data Retention policy — audio is processed 
-and immediately discarded. It is never stored, sold, or 
-used for model training.
+Sotto is a private voice-first memory app. It allows you to capture spoken memories, transcribe them, organize them with AI, and store them locally on your device.
 
-By choosing Accurate mode, you acknowledge and accept 
-this third-party processing. You can switch to Offline 
-mode at any time in Settings to prevent any data leaving 
-your device.
+---
 
-──────────────────────────
-4. OFFLINE MODE
-──────────────────────────
-In Offline mode, all transcription happens entirely on 
-your device. No audio or text is transmitted to any 
-server at any point.
+## 2. Your Content
 
-──────────────────────────
-5. WHAT WE DO NOT DO
-──────────────────────────
+Everything you create in Sotto belongs to you.
+
+We do not claim ownership of your memories, transcripts, or any other content you create.
+
+Your memories are stored locally on your device in an encrypted database. We do not have access to your stored memories.
+
+Audio recordings are processed temporarily and are automatically deleted after processing.
+
+---
+
+## 3. Accurate Mode
+
+If you choose **Accurate** mode, your voice recording and transcription are securely processed by Groq to generate a transcription and AI-powered memory organization.
+
+Groq provides Zero Data Retention (ZDR) for supported APIs. Your content is processed only to provide the requested service and is not retained or used for model training.
+
+By enabling Accurate mode, you consent to this limited third-party processing.
+
+You may switch to Offline mode at any time.
+
+---
+
+## 4. Offline Mode
+
+If you choose **Offline** mode, transcription is performed entirely on your device.
+
+No audio, transcript, or memory content is transmitted over the internet.
+
+---
+
+## 5. Privacy
+
+Sotto is designed to minimize data collection.
+
 The Solitary Dev does not:
-- Collect or store your personal data
-- Sell your data to third parties
-- Use your journal entries for advertising
-- Track your behaviour across apps
-- Share your information with anyone
 
-──────────────────────────
-6. ACCEPTABLE USE
-──────────────────────────
-You agree not to use Sotto to record content that is 
-illegal in your jurisdiction. You are responsible for 
-how you use the app and what you record.
+* Collect personal information
+* Require user accounts
+* Use advertising SDKs
+* Track user behavior
+* Sell or share your data
+* Access your stored memories
 
-──────────────────────────
-7. NO WARRANTY
-──────────────────────────
-Sotto is provided as-is. We make no guarantees about 
-uptime, accuracy of transcription, or fitness for any 
-particular purpose.
+Please refer to the Privacy Policy for additional information.
 
-We are not responsible for any loss of data. We strongly 
-recommend you do not rely on Sotto as your only record 
-of important information.
+---
 
-──────────────────────────
-8. CHANGES TO THESE TERMS
-──────────────────────────
-We may update these terms occasionally. Continued use 
-of the app after changes means you accept the updated 
-terms. We will update the "Last updated" date above 
-when changes are made.
+## 6. Acceptable Use
 
-──────────────────────────
-9. CONTACT
-──────────────────────────
-For questions about these terms:
-[your-dev-email@gmail.com]
+You are responsible for the content you record using Sotto.
 
-──────────────────────────
-10. GOVERNING LAW
-──────────────────────────
-These terms are governed by the laws of India. Any 
-disputes will be handled in the courts of India.
+You agree not to use Sotto for any unlawful purpose or in violation of applicable laws.
+
+---
+
+## 7. No Warranty
+
+Sotto is provided "as is" without warranties of any kind.
+
+While we strive to provide accurate transcription and reliable operation, we do not guarantee that the app will always be error-free, uninterrupted, or suitable for every purpose.
+
+You are responsible for maintaining your own backups of important information. The Solitary Dev is not responsible for any loss of data or content.
+
+---
+
+## 8. Limitation of Liability
+
+To the maximum extent permitted by law, The Solitary Dev shall not be liable for any indirect, incidental, consequential, or special damages arising from your use of Sotto.
+
+---
+
+## 9. Changes to These Terms
+
+We may update these Terms from time to time.
+
+The latest version will always include the updated "Last updated" date. Continued use of Sotto after changes constitutes acceptance of the revised Terms.
+
+---
+
+## 10. Governing Law
+
+These Terms are governed by the laws of India.
+
+Any disputes arising from these Terms shall be subject to the jurisdiction of the courts of India.
+
+---
+
+## 11. Contact
+
+If you have any questions about these Terms, please contact:
+
+**[sottoapp.help@gmail.com](mailto:sottoapp.help@gmail.com)**
