@@ -1,40 +1,21 @@
-````md
 # Sotto | Private Voice Memory App for Android
 
 > *Sotto Voce: to speak quietly, under your breath.*
 
-<p align="center">
-  <img src="assets/logo.png" alt="Sotto Logo" width="120" />
-</p>
+![Sotto Logo](assets/logo.png)
 
-<h3 align="center">Capture ideas, conversations, and moments by speaking.</h3>
+### Capture ideas, conversations, and moments by speaking.
 
-<p align="center">
 Private. Encrypted. Searchable. Offline first.
-</p>
 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
-    <img src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-34A853?style=for-the-badge&logo=google-play&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Android-Native-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Privacy-First-111111?style=for-the-badge" />
-</p>
+[![Get it on Google Play](https://img.shields.io/badge/Get%20it%20on-Google%20Play-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.sotto.memories)
+![Android Native](https://img.shields.io/badge/Android-Native-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Privacy First](https://img.shields.io/badge/Privacy-First-111111?style=for-the-badge)
 
-<p align="center">
-  <a href="https://www.producthunt.com/products/sotto-5">
-    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1174120&theme=dark" height="54" alt="Product Hunt" />
-  </a>
-  &nbsp;
-  <a href="https://open-launch.com/projects/sotto">
-    <img src="https://open-launch.com/api/badge/21e8245e-ceeb-45fc-bb66-be81d6127bc5/featured-dark.svg" height="54" alt="Open Launch" />
-  </a>
-  &nbsp;
-  <a href="https://www.shipit.buzz/products/sotto?ref=badge">
-    <img src="https://www.shipit.buzz/api/products/sotto/badge?theme=dark" height="54" alt="Shipit" />
-  </a>
-</p>
+[![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1174120&theme=dark)](https://www.producthunt.com/products/sotto-5)
+[![Open Launch](https://open-launch.com/api/badge/21e8245e-ceeb-45fc-bb66-be81d6127bc5/featured-dark.svg)](https://open-launch.com/projects/sotto)
+[![Shipit](https://www.shipit.buzz/api/products/sotto/badge?theme=dark)](https://www.shipit.buzz/products/sotto?ref=badge)
 
 ---
 
@@ -48,24 +29,17 @@ No ads. No tracking. No login. Just your memories.
 
 ## Screenshots
 
-<p align="center">
-  <img src="assets/screenshots/Record.png" width="220" alt="Record screen" />
-  <img src="assets/screenshots/Memories.png" width="220" alt="Memories screen" />
-</p>
+![Record screen](assets/screenshots/Record.png)
+![Memories screen](assets/screenshots/Memories.png)
 
-<p align="center">
-  <img src="assets/screenshots/Patterns.png" width="220" alt="Patterns screen" />
-  <img src="assets/screenshots/Privacy.png" width="220" alt="Privacy settings" />
-</p>
- 
+![Patterns screen](assets/screenshots/Patterns.png)
+![Privacy settings](assets/screenshots/Privacy.png)
 
 ---
 
 ## Download
 
-<a href="https://play.google.com/store/apps/details?id=com.sotto.memories">
-  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="220" />
-</a>
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.sotto.memories)
 
 ---
 
